@@ -1,0 +1,8 @@
+.DS_Store
+flamegraph.svg
+perf.data
+perf.data.old
+
+/config/*.toml
+/data
+/target
