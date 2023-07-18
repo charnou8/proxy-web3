@@ -5,3 +5,4 @@ version: "3.4"
 services:
   # manage the databases with a user friendly interface
   # it is slightly dangerous with "drop all" as a single click
+  dev-adminer:
