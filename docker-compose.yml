@@ -11,3 +11,5 @@ services:
       - 18306:8080
     environment:
       ADMINER_DEFAULT_SERVER: dev-db
+
+  # in dev we use mysql, but production will use RDS or similar
