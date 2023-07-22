@@ -15,3 +15,6 @@ services:
   # in dev we use mysql, but production will use RDS or similar
   dev-db:
     image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: dev_web3_proxy
+      MYSQL_DATABASE: dev_web3_proxy
