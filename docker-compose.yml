@@ -22,3 +22,6 @@ services:
       - 127.0.0.1:13306:3306
     volumes:
       - ./data/dev_mysql:/var/lib/mysql
+
+  # influxdb for stats
+  dev-influxdb:
