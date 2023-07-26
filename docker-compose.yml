@@ -26,3 +26,4 @@ services:
   # influxdb for stats
   dev-influxdb:
     image: influxdb:2.6.1-alpine
+    environment:
