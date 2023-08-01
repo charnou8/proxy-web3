@@ -38,3 +38,6 @@ services:
     volumes:
       - ./data/dev_influxdb/data:/var/lib/influxdb2
       - ./data/dev_influxdb/config:/etc/influxdb2
+
+  dev-kafka:
+    image: bitnami/kafka:3.4
