@@ -45,3 +45,5 @@ services:
       - "127.0.0.1:19092:9092"
     volumes:
       - "./data/dev_kafka:/bitnami"
+    environment:
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=dev-zookeeper:2181
