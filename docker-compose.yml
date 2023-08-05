@@ -47,3 +47,5 @@ services:
       - "./data/dev_kafka:/bitnami"
     environment:
       - KAFKA_CFG_ZOOKEEPER_CONNECT=dev-zookeeper:2181
+      - ALLOW_PLAINTEXT_LISTENER=yes
+    depends_on:
