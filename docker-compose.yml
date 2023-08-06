@@ -49,3 +49,7 @@ services:
       - KAFKA_CFG_ZOOKEEPER_CONNECT=dev-zookeeper:2181
       - ALLOW_PLAINTEXT_LISTENER=yes
     depends_on:
+      - dev-zookeeper
+
+  # volatile redis for storing rate limits
+  dev-vredis:
