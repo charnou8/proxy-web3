@@ -53,3 +53,5 @@ services:
 
   # volatile redis for storing rate limits
   dev-vredis:
+    extends:
+      file: docker-compose.common.yml
