@@ -55,3 +55,5 @@ services:
   dev-vredis:
     extends:
       file: docker-compose.common.yml
+      service: volatile_redis
+    ports:
