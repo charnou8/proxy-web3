@@ -57,3 +57,7 @@ services:
       file: docker-compose.common.yml
       service: volatile_redis
     ports:
+      - 127.0.0.1:16379:6379
+
+  # TODO: kafka doesn't need zookeeper anymore, but all the docs still use it
+  dev-zookeeper:
