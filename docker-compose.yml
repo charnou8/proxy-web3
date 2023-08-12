@@ -61,3 +61,5 @@ services:
 
   # TODO: kafka doesn't need zookeeper anymore, but all the docs still use it
   dev-zookeeper:
+    image: bitnami/zookeeper:3.8
+    ports:
