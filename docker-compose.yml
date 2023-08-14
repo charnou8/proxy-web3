@@ -63,3 +63,5 @@ services:
   dev-zookeeper:
     image: bitnami/zookeeper:3.8
     ports:
+      - "127.0.0.1:12181:2181"
+    volumes:
