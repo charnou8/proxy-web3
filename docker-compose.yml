@@ -65,3 +65,5 @@ services:
     ports:
       - "127.0.0.1:12181:2181"
     volumes:
+      - "./data/zookeeper:/bitnami"
+    environment:
