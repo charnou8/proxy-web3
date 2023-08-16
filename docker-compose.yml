@@ -67,3 +67,4 @@ services:
     volumes:
       - "./data/zookeeper:/bitnami"
     environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
