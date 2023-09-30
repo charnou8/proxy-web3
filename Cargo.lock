@@ -86,3 +86,5 @@ dependencies = [
 ]
 
 [[package]]
+name = "anstream"
+version = "0.3.2"
