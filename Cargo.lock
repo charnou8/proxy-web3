@@ -95,3 +95,5 @@ dependencies = [
  "anstyle-parse",
  "anstyle-query",
  "anstyle-wincon",
+ "colorchoice",
+ "utf8parse",
