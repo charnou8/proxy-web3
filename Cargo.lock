@@ -97,3 +97,7 @@ dependencies = [
  "anstyle-wincon",
  "colorchoice",
  "utf8parse",
+]
+
+[[package]]
+name = "anstyle"
