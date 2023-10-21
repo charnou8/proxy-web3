@@ -125,3 +125,5 @@ dependencies = [
 
 [[package]]
 name = "anstyle-wincon"
+version = "3.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
