@@ -127,3 +127,5 @@ dependencies = [
 name = "anstyle-wincon"
 version = "3.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f0699d10d2f4d628a98ee7b57b289abbc98ff3bad977cb3152709d4bf2330628"
+dependencies = [
