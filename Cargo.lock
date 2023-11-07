@@ -156,3 +156,6 @@ checksum = "b6cd774058b1b415c4855d8b86436c04bf050c003156fe24bc326fb3fe75c343"
 dependencies = [
  "static_assertions",
 ]
+
+[[package]]
+name = "argh"
