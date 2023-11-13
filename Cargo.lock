@@ -175,3 +175,5 @@ checksum = "56df0aeedf6b7a2fc67d06db35b09684c3e8da0c95f8f27685cb17e08413d87a"
 dependencies = [
  "argh_shared",
  "proc-macro2",
+ "quote",
+ "syn 2.0.39",
