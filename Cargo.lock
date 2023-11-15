@@ -181,3 +181,5 @@ dependencies = [
 
 [[package]]
 name = "argh_shared"
+version = "0.1.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
