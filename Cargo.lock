@@ -222,3 +222,6 @@ checksum = "287272293e9d8c41773cec55e365490fe034813a2f172f502d6ddcf75b2f582b"
 dependencies = [
  "event-listener",
 ]
+
+[[package]]
+name = "async-stream"
